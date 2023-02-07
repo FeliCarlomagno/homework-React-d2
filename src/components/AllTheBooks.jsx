@@ -5,15 +5,12 @@ const AllTheBooks = () => (
   <Container>
     <Row>
       {book.map((book) => (
-        <Card style={{ width: "18rem" }} className="col-12">
+        <Card style={{ width: "18rem" }} className="col-12 m-2">
           <Card.Img variant="top" src={book.img} />
           <Card.Body>
             <Card.Title>{book.title}</Card.Title>
-            <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </Card.Text>
-            <Button variant="primary">Go somewhere</Button>
+
+            <Button variant="primary">Compra</Button>
           </Card.Body>
         </Card>
       ))}
