@@ -10,7 +10,7 @@ const AllTheBooks = () => (
           <Card.Body>
             <Card.Title>{book.title}</Card.Title>
 
-            <Button variant="primary">Compra</Button>
+            <Button variant="primary">Compra €{book.price}</Button>
           </Card.Body>
         </Card>
       ))}
