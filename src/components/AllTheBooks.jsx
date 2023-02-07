@@ -3,7 +3,7 @@ import book from "../../src/books/fantasy.json";
 
 const AllTheBooks = () => (
   <Container>
-    <Row>
+    <Row className="justify-content-center">
       {book.map((book) => (
         <Card style={{ width: "18rem" }} className="col-12 m-2">
           <Card.Img variant="top" src={book.img} />

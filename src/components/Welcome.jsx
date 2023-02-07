@@ -5,7 +5,7 @@ const Welcome = () => (
       <h4>Best seller</h4>
       <p class="col-md-12 fs-4">
         Cerca e scopri quali sono i libri che possono fare per te. Qui troverai
-        i best seller di tutti i generi.
+        i best seller di genere fantasy.
       </p>
     </div>
   </div>
